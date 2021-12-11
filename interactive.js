@@ -1,11 +1,12 @@
 const numImages = 1
 
 const imagePath = "public/img/"
+const extension = "jpg"
 
 function generateImagePaths(prefix) {
   const paths = []
   for (let i = 1; i <= numImages; i++) {
-    paths.push(imagePath + `${prefix}-${('0' + i).slice(-2)}.png`)
+    paths.push(imagePath + `${prefix}-${('0' + i).slice(-2)}.${extension}`)
   }
   return paths
 }
