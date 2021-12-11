@@ -1,4 +1,4 @@
-const numImages = 1
+const numImages = 4
 
 const imagePath = "public/img/"
 const extension = "jpg"
